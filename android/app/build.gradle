@@ -49,8 +49,10 @@ android {
         applicationId "com.aqarpro.homes"
         minSdkVersion 23
         targetSdkVersion 35
-        versionCode "1".toInteger()
-        versionName "1.4.4.1"
+        // versionCode "1".toInteger()
+        // versionName "1.4.4.1"
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
